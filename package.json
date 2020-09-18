@@ -8,6 +8,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
+  "homepage": "./",
   "dependencies": {
     "axios": "^0.20.0",
     "coveralls": "^3.1.0",
@@ -31,7 +32,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "eslint": "eslint --ext .tsx,.ts --fix ./src",
-    "coverage": "react-scripts test --coverage --watchAll=false"
+    "coverage": "react-scripts test --coverage --watchAll=false",
+    "deploy": "gh-pages -d storybook-static"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -87,6 +89,7 @@
     "eslint-plugin-jsx-control-statements": "^2.2.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "np": "^6.4.0",
