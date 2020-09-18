@@ -7,7 +7,7 @@ yizoui 是个人制作的测试 ui 库
 使用 npm 或 yarn 安装
 
 ```
-$ npm install yihzo-firstui --save
+$ npm i yihzo-firstui --save
 ```
 
 ## 导入组件
@@ -18,7 +18,7 @@ import {Button} from 'yihzo-firstui';
 
 ## 在线文档
 
-https://yulongcs.github.io/yizoUi/
+https://yizo.github.io/yizoUi/
 
 <br />
 
